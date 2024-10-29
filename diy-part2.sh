@@ -18,6 +18,9 @@ rm -rf feeds/luci/applications/luci-app-passwall2
 rm -rf feeds/luci/applications/luci-app-alist
 rm -rf feeds/luci/applications/luci-app-ddns-go
 rm -rf feeds/packages/net/mosdns
+rm -rf feeds/packages/net/alist
+rm -rf feeds/packages/net/chinadns-ng
+rm -rf feeds/packages/net/ddns-go
 rm -rf feeds/packages/utils/v2dat
 rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
