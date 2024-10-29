@@ -29,3 +29,4 @@ git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
 git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone https://github.com/fw876/helloworld package/helloworld
+git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
