@@ -25,9 +25,9 @@ rm -rf feeds/packages/net/ddns-go
 rm -rf feeds/packages/net/xray-core
 rm -rf feeds/packages/net/sing-box
 rm -rf feeds/packages/lang/golang
-sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
-git clone -b openwrt-23.05 https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
+git clone -b openwrt-24.10 https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
 git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
