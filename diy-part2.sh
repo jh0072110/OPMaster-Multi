@@ -24,6 +24,7 @@ rm -rf feeds/packages/net/chinadns-ng
 rm -rf feeds/packages/net/ddns-go
 rm -rf feeds/packages/net/xray-core
 rm -rf feeds/packages/net/sing-box
+rm -rf feeds/packages/net/geoview
 rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
