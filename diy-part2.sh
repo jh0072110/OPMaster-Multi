@@ -28,8 +28,7 @@ rm -rf feeds/packages/net/geoview
 rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
-git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
+git clone -b openwrt-24.10 https://github.com/sbwml/luci-theme-argon package/argonx
 git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
 git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
