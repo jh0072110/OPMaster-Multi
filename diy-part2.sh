@@ -32,7 +32,7 @@ git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/l
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
 git clone https://github.com/sbwml/luci-app-openlist2 package/luci-app-olist
-git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
+git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/psw
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/pswcore
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
