@@ -36,4 +36,3 @@ git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/p
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/pswcore
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
-rm -rf package/ddns-go/luci-app-ddns-go/root/etc/config
