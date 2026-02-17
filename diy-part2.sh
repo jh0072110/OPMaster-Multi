@@ -38,3 +38,4 @@ git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
 git clone https://github.com/timsaya/luci-app-bandix package/bandix
+git clone https://github.com/timsaya/openwrt-bandix package/bdcore
