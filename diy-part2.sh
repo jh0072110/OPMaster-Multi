@@ -28,11 +28,14 @@ rm -rf feeds/packages/net/geoview
 rm -rf feeds/packages/net/tcping
 rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
-git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
 git clone https://github.com/sbwml/luci-app-openlist2 package/luci-app-olist
-git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
-git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
+git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/psw
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/pswcore
 git clone -b dev https://github.com/immortalwrt/homeproxy package/homeproxy
+git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
+git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone https://github.com/timsaya/luci-app-bandix package/bandix
+git clone https://github.com/timsaya/openwrt-bandix package/bandix-core
