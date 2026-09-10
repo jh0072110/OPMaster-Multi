@@ -28,7 +28,7 @@ rm -rf feeds/packages/net/geoview
 rm -rf feeds/packages/net/tcping
 rm -rf feeds/packages/lang/golang
 sed -i 's/192.168.1.1/172.17.17.1/g' package/base-files/files/bin/config_generate
-git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 27.x feeds/packages/lang/golang
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
 git clone https://github.com/sbwml/luci-app-openlist2 package/luci-app-olist
